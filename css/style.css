@@ -17988,8 +17988,8 @@ video {
   background: #fff;
 }
 .bg-overlay[data-style="2"] {
-  background: #ff9200;
-  opacity: .9;
+  background: #000000;
+  opacity: .3;
 }
 .bg-overlay[data-style="3"] {
   background: linear-gradient(140deg, #7c1bd6 0%, #31049b 100%);
