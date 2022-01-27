@@ -6,3 +6,28 @@
   
 
 */
+let position = null;
+
+function scrollX(end) {
+
+    let aux = $(window).scrollTop()
+    position = setInterval( () => {
+        
+        if( aux > end) {
+            aux = aux - 10;
+            window.scroll(0,aux)
+        }else {
+            stopScroll()
+        }
+      
+        console.log(aux)
+    
+    }, 1);
+  
+}
+
+function stopScroll() {
+    clearInterval(position);
+}
+
+
